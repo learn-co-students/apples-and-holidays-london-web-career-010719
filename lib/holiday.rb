@@ -7,6 +7,7 @@ end
 def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_supplies[:winter][:christmas].push("Baloons")
   holiday_supplies[:winter][:new_years].push("Baloons")
+  holiday_supplies
 end
 
 
