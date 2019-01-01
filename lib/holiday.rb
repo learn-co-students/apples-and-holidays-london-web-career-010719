@@ -16,9 +16,8 @@ holiday_supplies[:spring][:memorial_day].push(supply)
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  # code here
-  # remember to return the updated hash
-
+  holiday_supplies[:season][:holiday_name] = {}
+  holiday_supplies[:seaspm][:holiday_name] = [].concat(supply_array)
 end
 
 def all_winter_holiday_supplies(holiday_hash)
